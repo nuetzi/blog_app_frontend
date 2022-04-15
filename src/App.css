@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  background-color: #70798c;
+  color: #252323;
+}
+
+img {
+  border: 2px solid #252323;
+  border-radius: 5px;
+  max-width: 75%;
+  max-height: 65%;
+}
+
+.blogContainer {
+  margin: 1%;
+  display: grid;
+  gap: 1%;
+}
+
+.blogsDisplay {
+  border: 3px solid #252323;
+  border-radius: 10px;
+  color: #252323;
+  background-color: #dad2bc;
+}
+
+.showBlog {
+  border: 3px solid #252323;
+  color: #252323;
+  background-color: #dad2bc;
+  border-radius: 10px;;
+  width: 80%;
+  margin: auto;
+  padding: 15px;
+}
+
+.commentsContainer {
+  border: 2px solid #252323;
+  min-width: 40%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.commentForm {
+  border: 2px solid #252323;
+  padding: 15px;
+}
