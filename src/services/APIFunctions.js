@@ -25,3 +25,12 @@ export function editItem(id, updatedItem) {
     const response = axios.put(`${URL}${id}`, updatedItem);
     return response;
 };
+
+export function createUser(id) {
+    const response = axios.post(`${URL}/newuser`, id);
+    return response;
+};
+
+export function userLogin(id) {
+console.log("...")
+};
